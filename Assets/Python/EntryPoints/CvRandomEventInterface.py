@@ -23967,7 +23967,7 @@ CIBOLA_MINOR_GOLD_COST = 1000
 CIBOLA_MINOR_YIELD_COST = 30
 CIBOLA_MINOR_MOUNTED_CONQUISTADORS = 2
 
-CIBOLA_YIELD_PROVISIONS = "YIELD_PROVISIONS"
+CIBOLA_YIELD_PROVISIONS = "YIELD_BAKERY_GOODS"
 CIBOLA_YIELD_BLADES = "YIELD_BLADES"
 CIBOLA_YIELD_MUSKETS = "YIELD_MUSKETS"
 
@@ -24164,8 +24164,8 @@ def _revealCibolaMinorStage1Target(player, plot):
 
 	CyInterface().addMessage(
 		player.getID(),
-		True,
-		20,
+		False,
+		60,
 		localText.getText("TXT_KEY_MESSAGE_CIBOLA_MINOR_STAGE_1_TARGET", ()),
 		"",
 		0,
@@ -24176,8 +24176,7 @@ def _revealCibolaMinorStage1Target(player, plot):
 		True,
 		True
 	)
-
-
+   
 def canTriggerCibolaMajorPreparationDone(argsList):
 	kTriggeredData = argsList[0]
 	player = gc.getPlayer(kTriggeredData.ePlayer)
@@ -24328,4 +24327,3 @@ def getHelpCibolaMinorPreparationDone(argsList):
 		"TXT_KEY_EVENT_CIBOLA_MINOR_PREPARATION_DONE_HELP",
 		()
 	)
-

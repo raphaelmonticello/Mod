@@ -181,7 +181,7 @@ void CvPlayer::init(PlayerTypes eID)
 			setCivic(eCivicOption, GC.getCivilizationInfo(getCivilizationType()).getCivilizationInitialCivics(eCivicOption));
 		}
 
-		for (EventTypes eEvent = FIRST_EVENT; eEvent < NUM_EVENT_TYPES; ++eEvent)
+		for (EventTypes eEvent = (EventTypes)0; eEvent < NUM_EVENT_TYPES; ++eEvent)
 		{
 			resetEventOccured(eEvent, false);
 		}
@@ -15406,7 +15406,7 @@ void CvPlayer::applyEvent(EventTypes eEvent, const EventTriggeredData& kTriggere
 
 	bool bDeleteTrigger = bUpdateTrigger;
 
-	for (EventTypes eEvent = FIRST_EVENT; eEvent < NUM_EVENT_TYPES; ++eEvent)
+	for (EventTypes eEvent = (EventTypes)0; eEvent < NUM_EVENT_TYPES; ++eEvent)
 	{
 		if (0 == kEvent.getAdditionalEventTime(eEvent))
 		{
@@ -15589,7 +15589,7 @@ void CvPlayer::doEvents()
 	}
 
 	std::vector<int> aCleanup;
-	for (EventTypes eEvent = FIRST_EVENT; eEvent < NUM_EVENT_TYPES; ++eEvent)
+	for (EventTypes eEvent = (EventTypes)0; eEvent < NUM_EVENT_TYPES; ++eEvent)
 	{
 		const EventTriggeredData* pTriggeredData = getEventCountdown(eEvent);
 		if (NULL != pTriggeredData)
@@ -15607,7 +15607,7 @@ void CvPlayer::doEvents()
 	{
 		bool bDelete = true;
 
-		for (EventTypes eEvent = FIRST_EVENT; eEvent < NUM_EVENT_TYPES; ++eEvent)
+		for (EventTypes eEvent = (EventTypes)0; eEvent < NUM_EVENT_TYPES; ++eEvent)
 		{
 			const EventTriggeredData* pTriggeredData = getEventCountdown(eEvent);
 			if (NULL != pTriggeredData)
