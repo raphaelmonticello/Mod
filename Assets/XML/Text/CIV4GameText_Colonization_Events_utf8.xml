@@ -1318,8 +1318,8 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_EVENT_CRIMINALS_BLACKMAIL_CITY_DIRECT_RAID_GOLD</Tag>
-		<English>There were no defenders in %s1_city. The criminals plundered the settlement and carried off %d2 gold.</English>
-		<German>Die Kriminellen plünderten die Siedlung und schafften %d2 Gold fort.</German>
+		<English>The defenders in %s1_city were unable to prevent the theft. The criminals plundered the settlement and carried off %d2 gold.</English>
+		<German>Die Kriminellen in %s1_city plünderten die Siedlung und schafften %d2 Gold fort.</German>
 		<Russian/>
 	</TEXT>
 	<TEXT>
@@ -7178,69 +7178,6 @@
 		<Tag>TXT_KEY_EVENT_TRIGGER_FOUNTAIN_OF_YOUTH</Tag>
 		<English>My lord, it is incredible! Our scouts are dazzled by such beauty in the middle of the wilderness. A Garden of Eden! [COLOR_HIGHLIGHT_TEXT]A fountain of youth![COLOR_REVERT] People will flock to the wilderness to see this place. Word will spread as far as Europe. We are blessed.</English>
 		<German>Milord, es ist unglaublich! Unsere Scouts sind geblendet von solcher Schönheit mitten in der Wildnis. Ein Garten Eden! [COLOR_HIGHLIGHT_TEXT]Ein Jungbrunnen![COLOR_REVERT] Die Menschen werden in die Wildnis strömen, um diesen Ort zu sehen. Es wird sich bis nach Europa herumsprechen. Wir sind gesegnet.</German>
-		<Russian/>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_EVENTTRIGGER_SEVEN_CITIES_OF_CIBOLA_INITIAL_EVENT</Tag>
-		<English>Scouts come across rumours in the wilderness about the [COLOR_HIGHLIGHT_TEXT]Seven Cities of Cibola[COLOR_REVERT]!</English>
-		<German>Kundschafter stoßen in der Wildnis auf Gerüchte über die [COLOR_HIGHLIGHT_TEXT]Sieben Städte von Cibola[COLOR_REVERT]!</German>
-		<Russian/>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_EVENT_TRIGGER_SEVEN_CITIES_OF_CIBOLA_INITIAL_EVENT</Tag>
-		<English>As our scouts made their way through the desolate wilderness, far from the known colonies, they came across a group of weather-beaten conquistadors. The men recount tales told by the Indians of magnificent cities brimming with gold, silver and ancient treasures. Many may dismiss such tales as figments of the imagination, born of thirst and deprivation, yet the men swear on their honour that these are the legendary [COLOR_HIGHLIGHT_TEXT]Seven Cities of Cibola[COLOR_REVERT!</English>
-		<German>Während unsere Kundschafter fernab der bekannten Kolonien durch die trostlose Wildnis zogen, trafen sie auf eine Gruppe verwitterter Konquistadoren. Die Männer berichten von Erzählungen der Indios über prächtige Städte voller Gold, Silber und uralter Schätze. Viele mögen solche Geschichten für Hirngespinste halten, geboren aus Durst und Entbehrung, doch die Männer schwören bei ihrer Ehre, dass es sich um die sagenhaften [COLOR_HIGHLIGHT_TEXT]Sieben Städte von Cibola handelt[COLOR_REVERT]!</German>
-		<Russian/>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_EVENTTRIGGER_SEVEN_CITIES_OF_CIBOLA_INITIAL_EVENT_DONE</Tag>
-		<English>Rumours are spreading. A group of conquistadors has returned from the wilderness and has some truly incredible stories to tell.</English>
-		<German>Gerüchte verbreiten sich. Eine Gruppe Konquistadoren ist aus der Wildnis heimgekehrt und hat wahrlich sagenhaftes zu berichten.</German>
-		<Russian/>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_EVENT_TRIGGER_SEVEN_CITIES_OF_CIBOLA_INITIAL_EVENT_DONE</Tag>
-		<English>Mylord, a party of conquistadors has returned and brought back incredible news. Indians from various tribes are said to have spoken of the [COLOR_HIGHLIGHT_TEXT]treasure of all treasures[COLOR_REVERT]; indeed, entire cities made of gold are said to be hidden in the great canyons to the west. Everything we have always suspected may well be within our grasp!</English>
-		<German>Milord, ein Trupp Konquistadoren ist heimgekehrt und hat sagenhafte Neuigkeiten mitgebracht. Indios unterschiedlicher Stämme berichten angeblich über den [COLOR_HIGHLIGHT_TEXT]Schatz aller Schätze[COLOR_REVERT], ja ganze Städte aus Gold sollen in den großen Canyons im Westen verborgen sein. All das, was wir immer vermuteten, ist womöglich in greifbarer Nähe!</German>
-		<Russian/>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_EVENTTRIGGER_CIBOLA_MAJOR_PREPARATION_DONE</Tag>
-		<English>The colony is abuzz; one of the greatest expeditions of our time regarding the discovery of the Seven Cities of Cibolais about to begin.</English>
-		<German>Eine Kolonie ist in Aufregung, eine der größten Expeditionen zur Entdeckung der Sieben Städte von Cibola unserer Zeit ist im Begriff zu beginnen.</German>
-		<Russian/>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_EVENT_TRIGGER_CIBOLA_MAJOR_PREPARATION_DONE</Tag>
-		<English>Mylord, our men have been hard at work gathering enormous supplies and assembling the troops, and we have the pay ready too. We can finally set off and find the treasure of all treasures.</English>
-		<German>Milord, unsere Männer waren fleißig und haben enorme Ausrüstung und Truppen zusammengestellt und den Sold haben wir auch beisammen. Wir können endlich aufbrechen und den Schatz aller Schätze finden.</German>
-		<Russian/>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_EVENTTRIGGER_CIBOLA_MINOR_PREPARATION_DONE</Tag>
-		<English>The colony is in a state of excitement; a small expedition to discover the Seven Cities of Cibola is about to set off.</English>
-		<German>Eine Kolonie ist in Aufregung, eine Expedition zur Entdeckung der Sieben Städte von Cibola ist im Begriff aufzubrechen.</German>
-		<Russian/>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_EVENT_TRIGGER_CIBOLA_MINOR_PREPARATION_DONE</Tag>
-		<English>My lord, our men have been hard at work and have assembled a fine supply of equipment and a number of troops, and we have the pay ready as well. We can finally set off and see if we can find these cities of gold.</English>
-		<German>Milord, unsere Männer waren fleißig und haben ansehnliche Ausrüstung und einige Truppen zusammengestellt und den Sold haben wir auch beisammen. Wir können endlich aufbrechen und uns schauen, ob wir damit diese Städte aus Gold finden können.</German>
-		<Russian/>
-	</TEXT>
-
-
-
-	<TEXT>
-		<Tag>TXT_KEY_EVENTTRIGGER_SEVEN_CITIES_OF_CIBOLA_INITIAL_EVENT</Tag>
-		<English></English>
-		<German></German>
-		<Russian/>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_EVENT_TRIGGER_SEVEN_CITIES_OF_CIBOLA_INITIAL_EVENT</Tag>
-		<English></English>
-		<German></German>
 		<Russian/>
 	</TEXT>
 </Civ4GameText>

@@ -364,7 +364,7 @@ public:
 		switch (pPopupReturn->getButtonClicked())
 		{
 		case BUTTOM_TEST_canDoEvent:
-			for (EventTypes eEvent = (EventTypes)0; eEvent < NUM_EVENT_TYPES; ++eEvent)
+			for (EventTypes eEvent = FIRST_EVENT; eEvent < NUM_EVENT_TYPES; ++eEvent)
 			{
 				EventTriggeredData kTriggeredData;
 				bool bSuccess = kPlayer.canDoEvent(eEvent, kTriggeredData);
